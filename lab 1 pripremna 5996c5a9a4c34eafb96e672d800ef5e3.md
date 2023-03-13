@@ -3,7 +3,7 @@
 1. What is the *Address Resolution Protocol (ARP)*, and what is its role in a network?
     - Komunikacijski protokol kojim se može doći do fizičke adrese (MAC) pomoću IP adrese.
 2. What is a *Man-in-the-Middle (MitM)* attack, and how does ARP spoofing enable it?
-    - Tip kriptografskog napada u kojem napadač se nalazi u sredini komunikacije te pokušava ubaciti neku svoju poruku unutar te komunikacije bez da primatelj zna, već on misli da mu to šalje prijatelj s druge strane komunikacije. ARP omogućuje da napadač preuzme IP adresu pošiljatelja te zbog toga dobije ARP zahtjev.
+    - Tip kriptografskog napada u kojem napadač se nalazi u sredini komunikacije te pokušava ubaciti neku svoju poruku unutar te komunikacije bez da primatelj zna, već on misli da mu to šalje prijatelj s druge strane komunikacije. ARP omogućuje da napadač odgovori svojom MAC adresom te tako zavara pošiljatelja.
 3. How does an attacker use ARP spoofing to intercept network traffic?
     - Napadač pokušava falsificirati ARP zahtjev kako bi pošiljatelj podijelio svoju IP adresu s njim te se zatim napadač povezao sa svojom MAC adresom
 4. How is the *cookie* used to derive the encryption/decryption key?
